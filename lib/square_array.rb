@@ -1,6 +1,9 @@
 def square_array(array)
-  numbers = [1,2,3]
-  square_array_new[]
+  array_new = []
   n = 0
-  while
+  while n < array.length
+    array_new.push(array[n]**2)
+    n += 1
+  end
+  array_new
 end
